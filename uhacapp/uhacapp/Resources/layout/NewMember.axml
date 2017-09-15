@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:background="#e86400"
+    android:paddingLeft="20px"
+    android:paddingRight="20px"
+    android:paddingTop="80px"
+    android:minHeight="25px">
+    <TextView
+        android:text="New Member"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="40px"
+        android:id="@+id/txtllnm" />
+    <EditText
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:layout_marginBottom="20px"
+        android:id="@+id/txtLN" />
+    <EditText
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:layout_marginBottom="20px"
+        android:id="@+id/txtFN" />
+    <EditText
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Middle Name"
+        android:layout_marginBottom="20px"
+        android:id="@+id/txtMN" />
+    <EditText
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of Birth"
+        android:layout_marginBottom="20px"
+        android:id="@+id/txtDOB" />
+    <EditText
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sex"
+        android:layout_marginBottom="20px"
+        android:id="@+id/txtSex" />
+    <EditText
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Civil Status"
+        android:layout_marginBottom="20px"
+        android:id="@+id/txtCS" />
+    <EditText
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact Number"
+        android:layout_marginBottom="20px"
+        android:id="@+id/txtCN" />
+    <EditText
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:layout_marginBottom="20px"
+        android:id="@+id/txtAd" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <Button
+            android:text="Back"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:textColor="#0D0DFF"
+            android:textSize="30sp"
+            android:background="@drawable/buttonlayout"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_marginBottom="20px"
+            android:layout_marginRight="20px"
+            android:id="@+id/btnBackNewMember" />
+        <Button
+            android:text="Save"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:textColor="#0D0DFF"
+            android:textSize="30sp"
+            android:background="@drawable/buttonlayout"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_marginBottom="20px"
+            android:layout_marginLeft="20px"
+            android:id="@+id/btnSaveNewMember" />
+    </LinearLayout>
+</LinearLayout>

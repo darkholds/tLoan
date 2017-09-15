@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#e86400"
+    android:paddingLeft="20px"
+    android:paddingRight="20px"
+    android:paddingTop="80px"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Bank Payment"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="40px"
+        android:id="@+id/txtlll" />
+    <EditText
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bills Name"
+        android:layout_marginBottom="20px"
+        android:id="@+id/txtBills" />
+    <EditText
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Account Number"
+        android:layout_marginBottom="20px"
+        android:id="@+id/txtAccountNo" />
+    <EditText
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:layout_marginBottom="20px"
+        android:id="@+id/txtAmount" />
+    <Button
+        android:text="Transfer"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0D0DFF"
+        android:textSize="30sp"
+        android:background="@drawable/buttonlayout"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginBottom="20px"
+        android:id="@+id/btnSave" />
+</LinearLayout>

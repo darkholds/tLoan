@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#e86400"
+    android:paddingLeft="20px"
+    android:paddingRight="20px"
+    android:paddingTop="80px"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Loan Application"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="40px"
+        android:id="@+id/txtla" />
+    <EditText
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:layout_marginBottom="20px"
+        android:id="@+id/txtAmount" />
+    <EditText
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Collateral"
+        android:layout_marginBottom="20px"
+        android:id="@+id/txtCol" />
+    <EditText
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comaker"
+        android:layout_marginBottom="20px"
+        android:id="@+id/txtComaker" />
+    <EditText
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comaker Address"
+        android:layout_marginBottom="20px"
+        android:id="@+id/txtComAddress" />
+    <EditText
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comaker Contact No."
+        android:layout_marginBottom="20px"
+        android:id="@+id/txtComContact" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:text="Back"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:textColor="#0D0DFF"
+            android:textSize="30sp"
+            android:background="@drawable/buttonlayout"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_marginBottom="20px"
+            android:layout_marginRight="20px"
+            android:id="@+id/btnBackLoan" />
+        <Button
+            android:text="Save"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:textColor="#0D0DFF"
+            android:textSize="30sp"
+            android:background="@drawable/buttonlayout"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_marginBottom="20px"
+            android:layout_marginLeft="20px"
+            android:id="@+id/btnSave" />
+    </LinearLayout>
+</LinearLayout>
